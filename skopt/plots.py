@@ -599,7 +599,7 @@ def plot_objective(result, levels=10, n_points=40, n_samples=250, size=2,
 
     n_samples : int, default=250
         Number of samples to use for averaging the model function
-        at each of the `n_points` when `sample_method` is set to 'random'.
+        at each of the `n_points` when `sample_source` is set to 'random'.
 
     size : float, default=2
         Height (in inches) of each facet.
